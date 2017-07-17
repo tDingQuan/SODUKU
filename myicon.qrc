@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file>icon/referBtn.ico</file>
+        <file>icon/gameStart.ico</file>
+        <file>icon/quitBtn.ico</file>
+        <file>icon/playQuitBtn.ico</file>
+        <file>icon/restart.ico</file>
+        <file>icon/pause.ico</file>
+        <file>icon/go.ico</file>
+    </qresource>
+</RCC>

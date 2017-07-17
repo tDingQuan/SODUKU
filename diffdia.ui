@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>diffDia</class>
+ <widget class="QDialog" name="diffDia">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>50</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请问你要选择什么难度</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeBtn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>好好学习</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level1Btn">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>190</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>幼儿园</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level2Btn">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>190</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>初中</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level3Btn">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>190</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>中学</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level4Btn">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>大学</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level5Btn">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>研究生</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level6Btn">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>270</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>神</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selfLevelBtn">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>你管我（自定义）</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>130</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>selfLevelBtn</tabstop>
+  <tabstop>level1Btn</tabstop>
+  <tabstop>level2Btn</tabstop>
+  <tabstop>level3Btn</tabstop>
+  <tabstop>level4Btn</tabstop>
+  <tabstop>level5Btn</tabstop>
+  <tabstop>level6Btn</tabstop>
+  <tabstop>spinBox</tabstop>
+  <tabstop>closeBtn</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

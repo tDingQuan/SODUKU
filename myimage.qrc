@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/png">
+        <file>image/welScr.png</file>
+        <file>image/playScr.png</file>
+        <file>image/chosen.png</file>
+        <file>image/playHead.png</file>
+        <file>image/wrong.png</file>
+        <file>image/right.png</file>
+        <file>image/final.png</file>
+        <file>image/txt.png</file>
+        <file>image/reference.png</file>
+        <file>image/blankBKG.png</file>
+        <file>image/bkg.png</file>
+        <file>image/bbkg.png</file>
+        <file>image/hover.png</file>
+    </qresource>
+</RCC>

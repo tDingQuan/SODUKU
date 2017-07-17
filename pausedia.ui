@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pauseDia</class>
+ <widget class="QDialog" name="pauseDia">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>527</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>1</y>
+     <width>531</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华康少女文字W5(P)</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/png/image/chosen.png);</string>
+   </property>
+   <property name="text">
+    <string>
+
+暂停栏
+
+
+好好学习（点右下角按钮）
+算了再玩一会（点左下角按钮）
+忘记了规则（点左上角按钮）
+重新玩一局（点右上角按钮）</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignHCenter|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="referrence">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>280</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/ico/icon/referBtn.ico);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="goBack">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>350</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/ico/icon/go.ico);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="restart">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>280</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/ico/icon/restart.ico);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>350</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/ico/icon/playQuitBtn.ico);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="referText">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>280</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华康少女文字W5(P)</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/png/image/txt.png);</string>
+   </property>
+   <property name="text">
+    <string>游戏规则</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="restartTxt">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>280</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华康少女文字W5(P)</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/png/image/txt.png);</string>
+   </property>
+   <property name="text">
+    <string>重开一局</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitTxt">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>350</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华康少女文字W5(P)</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/png/image/txt.png);</string>
+   </property>
+   <property name="text">
+    <string>好好学习</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="goBackTxt">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>350</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华康少女文字W5(P)</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/png/image/txt.png);</string>
+   </property>
+   <property name="text">
+    <string>回到游戏</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
